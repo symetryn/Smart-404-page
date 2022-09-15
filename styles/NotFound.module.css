@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noe Display", sans-serif;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.subTitle {
+  font-size: 1.4rem;
+}
+
+.suggestion {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.suggestionItem {
+  padding: 5px 15px;
+  margin: 0.8rem 0.2rem;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
